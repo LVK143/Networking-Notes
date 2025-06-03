@@ -1,2 +1,0 @@
-# Networking-Notes
-Cyber Security

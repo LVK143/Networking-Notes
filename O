@@ -1,0 +1,17 @@
+1. OSI Model
+The OSI Model (Open Systems Interconnection) is a conceptual framework used to understand how different networking protocols interact to enable communication between computers.
+
+It has 7 layers:
+| Layer Number | Layer Name   | Function                                | Example/Analogy                 |
+| ------------ | ------------ | --------------------------------------- | ------------------------------- |
+| 7            | Application  | Interface for user applications         | Web browsers, email clients     |
+| 6            | Presentation | Data formatting and encryption          | SSL/TLS encryption              |
+| 5            | Session      | Establishes and manages sessions        | Logging into a remote server    |
+| 4            | Transport    | Reliable data transfer (TCP/UDP)        | TCP ensures data packets arrive |
+| 3            | Network      | Routing and addressing (IP addresses)   | IP addresses, routers           |
+| 2            | Data Link    | Physical addressing and error detection | MAC addresses, switches         |
+| 1            | Physical     | Physical medium and transmission        | Ethernet cables, WiFi signals   |
+
+
+Example: When you type a URL in your browser and hit Enter, the data you send and receive travels through all these layers — from Application (your browser) down to Physical (your network cable or WiFi) and back up on the receiving side.
+
